@@ -1,0 +1,69 @@
+stage: features
+started: 2026-10-28 13:58:13.190804
+settings: {'quick': False, 'dataset': None, 'lam': None, 'depth': None, 'timelimit': 300.0, 'exp': None, 'jobs': 3, 'memlimit': 3000}
+
+60 jobs were already done before, running the other 0
+{'dataset': 'monk1', 'features': 'equality', 'lam': 0.01, 'binaryFeatures': 19.0, 'leaves': 3.0, 'trainAccuracy': 1.0, 'testAccuracy': 1.0, 'seconds': 0.16298151016235352}
+{'dataset': 'monk1', 'features': 'equality', 'lam': 0.02, 'binaryFeatures': 19.0, 'leaves': 3.0, 'trainAccuracy': 1.0, 'testAccuracy': 1.0, 'seconds': 0.030158281326293945}
+{'dataset': 'monk1', 'features': 'text', 'lam': 0.01, 'binaryFeatures': 17.0, 'leaves': 7.0, 'trainAccuracy': 1.0, 'testAccuracy': 1.0, 'seconds': 0.2581329345703125}
+{'dataset': 'monk1', 'features': 'text', 'lam': 0.02, 'binaryFeatures': 17.0, 'leaves': 7.0, 'trainAccuracy': 1.0, 'testAccuracy': 1.0, 'seconds': 0.14176583290100098}
+{'dataset': 'monk2', 'features': 'equality', 'lam': 0.01, 'binaryFeatures': 19.0, 'leaves': 18.0, 'trainAccuracy': 0.9777777777777777, 'testAccuracy': 0.8529411764705882, 'seconds': 0.7998197078704834}
+{'dataset': 'monk2', 'features': 'equality', 'lam': 0.02, 'binaryFeatures': 19.0, 'leaves': 9.0, 'trainAccuracy': 0.8518518518518519, 'testAccuracy': 0.7941176470588235, 'seconds': 0.48340845108032227}
+{'dataset': 'monk2', 'features': 'text', 'lam': 0.01, 'binaryFeatures': 17.0, 'leaves': 17.0, 'trainAccuracy': 0.9111111111111111, 'testAccuracy': 0.7647058823529411, 'seconds': 0.5090959072113037}
+{'dataset': 'monk2', 'features': 'text', 'lam': 0.02, 'binaryFeatures': 17.0, 'leaves': 7.0, 'trainAccuracy': 0.7925925925925926, 'testAccuracy': 0.7352941176470589, 'seconds': 0.2589402198791504}
+{'dataset': 'monk3', 'features': 'equality', 'lam': 0.01, 'binaryFeatures': 19.0, 'leaves': 5.0, 'trainAccuracy': 0.9587628865979382, 'testAccuracy': 0.92, 'seconds': 0.38077259063720703}
+{'dataset': 'monk3', 'features': 'equality', 'lam': 0.02, 'binaryFeatures': 19.0, 'leaves': 3.0, 'trainAccuracy': 0.9381443298969072, 'testAccuracy': 0.92, 'seconds': 0.18356919288635254}
+{'dataset': 'monk3', 'features': 'text', 'lam': 0.01, 'binaryFeatures': 17.0, 'leaves': 5.0, 'trainAccuracy': 0.9587628865979382, 'testAccuracy': 0.92, 'seconds': 0.22330522537231445}
+{'dataset': 'monk3', 'features': 'text', 'lam': 0.02, 'binaryFeatures': 17.0, 'leaves': 3.0, 'trainAccuracy': 0.9381443298969072, 'testAccuracy': 0.92, 'seconds': 0.05481982231140137}
+105 jobs were already done before, running the other 25
+finished job 106/130
+finished job 107/130
+finished job 108/130
+finished job 109/130
+finished job 110/130
+finished job 111/130
+finished job 112/130
+finished job 113/130
+finished job 114/130
+finished job 115/130
+finished job 116/130
+finished job 117/130
+finished job 118/130
+finished job 119/130
+finished job 120/130
+finished job 121/130
+finished job 122/130
+finished job 123/130
+finished job 124/130
+finished job 125/130
+finished job 126/130
+finished job 127/130
+finished job 128/130
+finished job 129/130
+finished job 130/130
+{'dataset': 'banknote', 'binarize': 'all', 'binaryFeatures': 4072.0, 'seconds': 36.122369050979614, 'leaves': 2.0, 'trainAccuracy': 0.8515482695810564, 'testAccuracy': 0.8613138686131386, 'stopped': 'MO'}
+{'dataset': 'banknote', 'binarize': 'bucket', 'binaryFeatures': 1472.0, 'seconds': 35.316691875457764, 'leaves': 2.0, 'trainAccuracy': 0.8515482695810564, 'testAccuracy': 0.8613138686131386, 'stopped': 'MO'}
+{'dataset': 'banknote', 'binarize': 'mi', 'binaryFeatures': 16.0, 'seconds': 0.0003139972686767578, 'leaves': 2.0, 'trainAccuracy': 0.8477666362807658, 'testAccuracy': 0.8327272727272728, 'stopped': ''}
+{'dataset': 'banknote', 'binarize': 'quantile10', 'binaryFeatures': 36.0, 'seconds': 8.839978456497192, 'leaves': 8.0, 'trainAccuracy': 0.9845031905195989, 'testAccuracy': 0.9744525547445255, 'stopped': ''}
+{'dataset': 'banknote', 'binarize': 'quantile5', 'binaryFeatures': 16.0, 'seconds': 0.3345348834991455, 'leaves': 9.0, 'trainAccuracy': 0.9662716499544212, 'testAccuracy': 0.9636363636363636, 'stopped': ''}
+{'dataset': 'breast_cancer', 'binarize': 'all', 'binaryFeatures': 12485.0, 'seconds': 39.50010061264038, 'leaves': 2.0, 'trainAccuracy': 0.9252747252747253, 'testAccuracy': 0.8849557522123894, 'stopped': 'MO'}
+{'dataset': 'breast_cancer', 'binarize': 'bucket', 'binaryFeatures': 4036.0, 'seconds': 33.606231927871704, 'leaves': 2.0, 'trainAccuracy': 0.9252747252747253, 'testAccuracy': 0.8849557522123894, 'stopped': 'MO'}
+{'dataset': 'breast_cancer', 'binarize': 'mi', 'binaryFeatures': 120.0, 'seconds': 12.51534104347229, 'leaves': 3.0, 'trainAccuracy': 0.9516483516483516, 'testAccuracy': 0.9298245614035088, 'stopped': ''}
+{'dataset': 'breast_cancer', 'binarize': 'quantile10', 'binaryFeatures': 270.0, 'seconds': 85.05311322212219, 'leaves': 2.0, 'trainAccuracy': 0.9186813186813186, 'testAccuracy': 0.8859649122807017, 'stopped': 'MO'}
+{'dataset': 'breast_cancer', 'binarize': 'quantile5', 'binaryFeatures': 120.0, 'seconds': 97.08198428153992, 'leaves': 5.0, 'trainAccuracy': 0.9362637362637363, 'testAccuracy': 0.9122807017543859, 'stopped': 'MO'}
+{'dataset': 'heart', 'binarize': 'all', 'binaryFeatures': 342.0, 'seconds': 42.173343658447266, 'leaves': 2.0, 'trainAccuracy': 0.7731481481481481, 'testAccuracy': 0.7222222222222222, 'stopped': 'MO'}
+{'dataset': 'heart', 'binarize': 'bucket', 'binaryFeatures': 260.0, 'seconds': 42.9058735370636, 'leaves': 2.0, 'trainAccuracy': 0.7731481481481481, 'testAccuracy': 0.7222222222222222, 'stopped': 'MO'}
+{'dataset': 'heart', 'binarize': 'mi', 'binaryFeatures': 32.0, 'seconds': 1.8605413436889648, 'leaves': 10.0, 'trainAccuracy': 0.8888888888888888, 'testAccuracy': 0.8148148148148148, 'stopped': ''}
+{'dataset': 'heart', 'binarize': 'quantile10', 'binaryFeatures': 56.0, 'seconds': 154.4498405456543, 'leaves': 9.0, 'trainAccuracy': 0.8657407407407407, 'testAccuracy': 0.8148148148148148, 'stopped': 'MO'}
+{'dataset': 'heart', 'binarize': 'quantile5', 'binaryFeatures': 32.0, 'seconds': 30.889772653579712, 'leaves': 15.0, 'trainAccuracy': 0.9351851851851852, 'testAccuracy': 0.7777777777777778, 'stopped': ''}
+{'dataset': 'pima', 'binarize': 'all', 'binaryFeatures': 1125.0, 'seconds': 38.986356258392334, 'leaves': 2.0, 'trainAccuracy': 0.751219512195122, 'testAccuracy': 0.7337662337662337, 'stopped': 'MO'}
+{'dataset': 'pima', 'binarize': 'bucket', 'binaryFeatures': 749.0, 'seconds': 39.091596603393555, 'leaves': 2.0, 'trainAccuracy': 0.751219512195122, 'testAccuracy': 0.7337662337662337, 'stopped': 'MO'}
+{'dataset': 'pima', 'binarize': 'domain', 'binaryFeatures': 14.0, 'seconds': 0.19707417488098145, 'leaves': 5.0, 'trainAccuracy': 0.767479674796748, 'testAccuracy': 0.7581699346405228, 'stopped': ''}
+{'dataset': 'pima', 'binarize': 'mi', 'binaryFeatures': 31.0, 'seconds': 0.007648468017578125, 'leaves': 2.0, 'trainAccuracy': 0.751219512195122, 'testAccuracy': 0.7337662337662337, 'stopped': ''}
+{'dataset': 'pima', 'binarize': 'quantile10', 'binaryFeatures': 67.0, 'seconds': 136.82530307769775, 'leaves': 2.0, 'trainAccuracy': 0.747557003257329, 'testAccuracy': 0.7272727272727273, 'stopped': 'MO'}
+{'dataset': 'pima', 'binarize': 'quantile5', 'binaryFeatures': 31.0, 'seconds': 32.61308526992798, 'leaves': 7.0, 'trainAccuracy': 0.7869918699186992, 'testAccuracy': 0.7402597402597403, 'stopped': ''}
+{'dataset': 'titanic', 'binarize': 'all', 'binaryFeatures': 345.0, 'seconds': 44.66754126548767, 'leaves': 2.0, 'trainAccuracy': 0.7772455089820359, 'testAccuracy': 0.7836538461538461, 'stopped': 'MO'}
+{'dataset': 'titanic', 'binarize': 'bucket', 'binaryFeatures': 273.0, 'seconds': 45.70742964744568, 'leaves': 2.0, 'trainAccuracy': 0.7772455089820359, 'testAccuracy': 0.7836538461538461, 'stopped': 'MO'}
+{'dataset': 'titanic', 'binarize': 'mi', 'binaryFeatures': 19.0, 'seconds': 0.00045180320739746094, 'leaves': 2.0, 'trainAccuracy': 0.7832335329341318, 'testAccuracy': 0.7836538461538461, 'stopped': ''}
+{'dataset': 'titanic', 'binarize': 'quantile10', 'binaryFeatures': 30.0, 'seconds': 7.305304288864136, 'leaves': 6.0, 'trainAccuracy': 0.8129496402877698, 'testAccuracy': 0.8038277511961722, 'stopped': ''}
+{'dataset': 'titanic', 'binarize': 'quantile5', 'binaryFeatures': 19.0, 'seconds': 1.195105791091919, 'leaves': 4.0, 'trainAccuracy': 0.8009592326139089, 'testAccuracy': 0.7932692307692307, 'stopped': ''}
