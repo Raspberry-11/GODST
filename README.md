@@ -2,7 +2,7 @@
 
 We implement the paper **"Generalized and Scalable Optimal Sparse Decision Trees"** (Lin, Zhong, Hu, Rudin, Seltzer, ICML 2020) from scratch in  Python. We build it step by step: brute force, then dynamic programming, then the sparsity objective, then bounds, then the full GOSDT algorithm. Each step can be run and checked on its own.
 
-On top of it we add two ideas of our own to make the search faster: depth guessing (a depth limit together with the lambda objective) and lower bound guessing (use the mistakes of a boosted model as the lower bound of a subproblem). We also try some feature engineering and different ways to turn numbers into 0/1 features, on the paper datasets and 5 new ones.
+On top of it we add a bit of extensions to make the search faster: depth guessing (a depth limit together with the lambda objective) and lower bound guessing (use the mistakes of a boosted model as the lower bound of a subproblem). We also try some feature engineering and different ways to turn numbers into 0/1 features, on the paper datasets and 5 new ones.
 
 
 ## 1. Setup (one time)
