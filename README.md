@@ -100,14 +100,14 @@ Every folder has a `.csv` table with all numbers, `log.txt` (what ran, with the 
 | 5 | `code/step5_gosdt.py` | priority queue, dependency graph, bound updates go to parents first, scope, subset bound, tree extraction | Alg 1, Sec 4.2 to 4.5, App G, Alg 6 |
 | 6 | `code/step6_objectives.py` | other objectives: acc, bacc, wacc use step 5 with weights, f1, auc, pauc use the leaf set search | Sec 2, App B, C, D |
 
-Our own work (Part C), switched on with options of step 5, so step 5 alone is still the plain paper method:
+Extensions (Part C), switched on with options of step 5, so step 5 alone is still the plain paper method:
 
 | idea | file | what it does |
 |---|---|---|
 | depth guessing | `code/guessDepth.py` + `depthBudget` in step 5 | add a depth limit to the lambda objective (loss + lambda * leaves with depth <= d), and a VC dimension argument for how deep is enough |
 | lower bound guessing | `code/guessLowerBound.py` + `referencePredictions` in step 5 and `dl85Style.py` | use the mistakes of a boosted model (GBDT) on the rows of a subproblem as its lower bound, with a guarantee on how much worse the tree can get |
 
-Other parts of our own work:
+Other parts of Extensions:
 
 | file | what it does |
 |---|---|
